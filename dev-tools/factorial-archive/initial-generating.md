@@ -30,9 +30,24 @@ git init
 git remote add origin
 
 
-
+clasp create --title VernisalisArtistJoinForm --rootDir "./src/google-apps/artist-join-form" --type forms
 clasp create --title VernisalisArtistJoinForm --rootDir "./src/google-apps/artist-join-form" --type forms
 clasp create --title VernisalisGalleryExhibition --rootDir "./src/google-apps/gallery-exhibition" --type sheets
 clasp create --title VernisalisWebVisitcart --rootDir "./src/google-apps/web-visitcart" --type webapp
 clasp create --title VernisalisMailerController --rootDir "./src/google-apps/mailer-controller" --type api
 clasp create --title VernisalisSliderTool --rootDir "./src/google-apps/slider-tool" --type slides
+clasp create --title VernisalisArtCalendarium --rootDir "./src/google-apps/art-calendarium"
+
+
+
+cd $P
+
+./src/google-apps/art-calendarium
+./src/google-apps/artist-join-form
+./src/google-apps/artistical-colective
+./src/google-apps/artistical-colective/g-drive
+./src/google-apps/artistical-colective/g-tables
+./src/google-apps/gallery-exhibition
+./src/google-apps/mailer-controller
+./src/google-apps/slider-tool
+./src/google-apps/web-visitcart
