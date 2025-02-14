@@ -6,7 +6,7 @@
     "moduleResolution": "node",
     "paths": {
       "@/*": [
-        "app/src/*"
+        "src/app/src/*"
       ]
     },
     "lib": [

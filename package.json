@@ -4,10 +4,16 @@
   "description": "Alternative opensource platform for independent artist groups",
   "main": "main.js",
   "scripts": {
-    "test": "python ./dev-tools/npm-commands/test.py",
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "gaspi": "python ./dev-tools/gaspi.py",
+    "vue-serve": "vue-cli-service serve",
+    "vue-build": "vue-cli-service build",
+    "vue-lint": "vue-cli-service lint",
+    "nuxt-dev": "nuxt",
+    "nuxt-build": "nuxt build",
+    "nuxt-generate": "nuxt generate",
+    "nuxt": "nuxt start",
+    "nuxt-preview": "nuxt preview",
+    "nuxt-prep": "nuxt prepare"
   },
   "repository": {
     "type": "git",
@@ -20,17 +26,23 @@
   },
   "homepage": "https://github.com/Sarverott/vernisalis#readme",
   "dependencies": {
+    "@netlify/functions": "^3.0.0",
+    "browserfs": "^1.4.3",
     "core-js": "^3.8.3",
+    "gq-loader": "^0.1.5",
+    "nuxt": "^3.15.4",
     "qrcode": "^1.5.4",
     "socket.io": "^4.8.1",
-    "vue": "^3.2.13"
+    "vue": "^3.2.13",
+    "vue-router": "latest"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
-    "puppeteer": "^24.2.1",
     "@babel/eslint-parser": "^7.12.16",
     "@google/clasp": "^2.5.0",
     "@ngrok/ngrok": "^1.4.1",
+    "@nuxtjs/i18n": "^9.2.0",
+    "@nuxtjs/sitemap": "^7.2.4",
     "@vue/cli": "^5.0.8",
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
@@ -38,7 +50,8 @@
     "electron": "^34.2.0",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
-    "netlify-cli": "^18.1.0"
+    "netlify-cli": "^18.1.0",
+    "puppeteer": "^24.2.1"
   },
   "eslintConfig": {
     "root": true,
