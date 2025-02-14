@@ -33,3 +33,6 @@ git remote add origin
 
 clasp create --title VernisalisArtistJoinForm --rootDir "./src/google-apps/artist-join-form" --type forms
 clasp create --title VernisalisGalleryExhibition --rootDir "./src/google-apps/gallery-exhibition" --type sheets
+clasp create --title VernisalisWebVisitcart --rootDir "./src/google-apps/web-visitcart" --type webapp
+clasp create --title VernisalisMailerController --rootDir "./src/google-apps/mailer-controller" --type api
+clasp create --title VernisalisSliderTool --rootDir "./src/google-apps/slider-tool" --type slides

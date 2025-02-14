@@ -20,24 +20,25 @@
   },
   "homepage": "https://github.com/Sarverott/vernisalis#readme",
   "dependencies": {
+    "core-js": "^3.8.3",
     "qrcode": "^1.5.4",
     "socket.io": "^4.8.1",
-    "core-js": "^3.8.3",
     "vue": "^3.2.13"
   },
   "devDependencies": {
-    "electron": "^34.2.0",
-    "netlify-cli": "^18.1.0",
+    "@babel/core": "^7.12.16",
+    "puppeteer": "^24.2.1",
+    "@babel/eslint-parser": "^7.12.16",
     "@google/clasp": "^2.5.0",
     "@ngrok/ngrok": "^1.4.1",
     "@vue/cli": "^5.0.8",
-    "@babel/core": "^7.12.16",
-    "@babel/eslint-parser": "^7.12.16",
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
+    "electron": "^34.2.0",
     "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^8.0.3"
+    "eslint-plugin-vue": "^8.0.3",
+    "netlify-cli": "^18.1.0"
   },
   "eslintConfig": {
     "root": true,

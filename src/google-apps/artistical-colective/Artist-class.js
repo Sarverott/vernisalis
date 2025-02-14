@@ -33,22 +33,7 @@ class Artist{
 Artist.LIST={};
 Artist.ID_LIST={};
 
-function read() {
-  let spreadsheetId = '1wVv6jxC4GZR8O_7w1dGA3F6Xe1z_wHjkxzzwvvfpAR8';
-  
-  let artmasters = {
-    ids: Sheets.Spreadsheets.Values.get(spreadsheetId, 'F2:F14').values,
-    names: Sheets.Spreadsheets.Values.get(spreadsheetId, 'A2:A14').values,
-    emails: Sheets.Spreadsheets.Values.get(spreadsheetId, 'E2:E14').values,
-    links: Sheets.Spreadsheets.Values.get(spreadsheetId, 'D2:D14').values
-  }
-  //for(let name of values){
-  for(let id in artmasters.ids){
-    let talentedRecruit = new Artist(artmasters.names[id], artmasters.ids[id]);
-    talentedRecruit.visitCard(artmasters.names[id], artmasters.names[id])
-  }
-  console.log(Artist);
-}
+
 
 /*
 class VisitCard{
