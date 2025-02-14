@@ -1,38 +1,4 @@
-8The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
-x=document.querySelector("pre").innerText.split("\n").filter((x)=>x[0]!="#").filter((x)=>x.trim()!="")
-(152) ['logs', '*.log', 'npm-debug.log*', 'yarn-debug.log*', 'yarn-error.log*', 'lerna-debug.log*', '.pnpm-debug.log*', 'report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json', 'pids', '*.pid', '*.seed', '*.pid.lock', 'lib-cov', 'coverage', '*.lcov', '.nyc_output', '.grunt', 'bower_components', '.lock-wscript', 'build/Release', 'node_modules/', 'jspm_packages/', 'web_modules/', '*.tsbuildinfo', '.npm', '.eslintcache', '.stylelintcache', '.rpt2_cache/', '.rts2_cache_cjs/', '.rts2_cache_es/', '.rts2_cache_umd/', '.node_repl_history', '*.tgz', '.yarn-integrity', '.env', '.env.development.local', '.env.test.local', '.env.production.local', '.env.local', '.cache', '.parcel-cache', '.next', 'out', '.nuxt', 'dist', '.cache/', '.vuepress/dist', '.temp', '.docusaurus', '.serverless/', '.fusebox/', '.dynamodb/', '.tern-port', '.vscode-test', '.yarn/cache', '.yarn/unplugged', '.yarn/build-state.yml', '.yarn/install-state.gz', '.pnp.*', '.webpack/', '.svelte-kit', '.nuxt-*', '.output', '.gen', 'node_modules', '__pycache__/', '*.py[cod]', '*$py.class', '*.so', '.Python', 'build/', 'develop-eggs/', 'dist/', 'downloads/', 'eggs/', '.eggs/', 'lib/', 'lib64/', 'parts/', 'sdist/', 'var/', 'wheels/', 'share/python-wheels/', '*.egg-info/', '.installed.cfg', '*.egg', 'MANIFEST', '*.manifest', '*.spec', 'pip-log.txt', 'pip-delete-this-directory.txt', 'htmlcov/', '.tox/', '.nox/', '.coverage', '.coverage.*', 'nosetests.xml', 'coverage.xml', '*.cover', '*.py,cover', …]
-while(x.length){
-    y.push(
-        x.splice(
-            Math.floor(
-                Math.random()*x.length
-            ),
-            1
-        )[0]
-    
-    )
-}
-VM1216:2 Uncaught ReferenceError: y is not defined
-    at <anonymous>:2:5
-(anonymous) @ VM1216:2
-y=[]
-[]
-while(x.length){
-    y.push(
-        x.splice(
-            Math.floor(
-                Math.random()*x.length
-            ),
-            1
-        )[0]
-    
-    )
-}
-152
-y
-(152) ['jspm_packages/', '.rts2_cache_cjs/', '.env.test.local', 'develop-eggs/', 'wheels/', '.vuepress/dist', '.rpt2_cache/', '.env.development.local', '.pdm.toml', '.output', '.stylelintcache', '*.py,cover', '.hypothesis/', 'share/python-wheels/', 'eggs/', 'ipython_config.py', '*.pid.lock', 'profile_default/', '.dmypy.json', '.nuxt', 'dist/', '.coverage.*', 'target/', 'coverage.xml', '.gen', 'report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json', 'coverage', '.cache/', 'pip-log.txt', 'lib/', '.yarn-integrity', '.parcel-cache', '[Ss]cripts', '.grunt', '.spyderproject', '.nuxt-*', 'pyrightconfig.json', 'celerybeat.pid', 'env/', '[Ii]nclude', 'nosetests.xml', '/.netlify', 'node_modules/', '.Python', '.tox/', 'htmlcov/', '.svelte-kit', '.spyproject', '.yarn/build-state.yml', '*.egg', 'cover/', '*.cover', 'lerna-debug.log*', '__pypackages__/', 'var/', '[Bb]in', '.pybuilder/', 'db.sqlite3', '.tern-port', '*.log', '.ruff_cache/', '.yarn/install-state.gz', '*.spec', '*.pot', '.yarn/cache', 'venv/', 'pyvenv.cfg', '*.so', '.ipynb_checkpoints', '/site', '.nyc_output', '.nox/', '[Ll]ocal', 'node_modules', '.next', 'poetry.toml', '.mypy_cache/', '.lock-wscript', 'pip-selfcheck.json', '*.tgz', '.pytest_cache/', '.node_repl_history', 'env.bak/', 'npm-debug.log*', 'ENV/', 'pids', 'out', 'venv.bak/', '.pnp.*', '*.egg-info/', '.npm', '.venv', '.dynamodb/', 'bower_components', 'local_settings.py', 'cython_debug/', '.serverless/', 'instance/', '[Ll]ib', 'test/', …]
-console.log(y.join("\n"))
-VM1268:1 jspm_packages/
+jspm_packages/
 .rts2_cache_cjs/
 .env.test.local
 develop-eggs/
@@ -184,4 +150,3 @@ build/
 web_modules/
 .pytype/
 .env.production.local
-undefined
