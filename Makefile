@@ -23,15 +23,5 @@ gaspi:
 
 
 
-
-cd $P
-
-./src/google-apps/art-calendarium
-./src/google-apps/artist-join-form
-./src/google-apps/artistical-colective
-./src/google-apps/artistical-colective/g-drive
-./src/google-apps/artistical-colective/g-tables
-./src/google-apps/gallery-exhibition
-./src/google-apps/mailer-controller
-./src/google-apps/slider-tool
-./src/google-apps/web-visitcart
+ttystory:
+	history > ~/ttystory-$(date +%s)-large-sesion.txt

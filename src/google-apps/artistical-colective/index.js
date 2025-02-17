@@ -1,4 +1,4 @@
-HtmlService.createHtmlOutput(htmlContent).addMetaTag('viewport', 'width=device-width, initial-scale=1');
+//HtmlService.createHtmlOutput(htmlContent).addMetaTag('viewport', 'width=device-width, initial-scale=1');
 
 
 

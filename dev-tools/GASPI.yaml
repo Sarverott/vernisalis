@@ -1,15 +1,40 @@
 
 
+
+
+
 google-apps:
-  - ./src/google-apps/art-calendarium
+  vernisalis:
+    VernisalisWebVisitcart:
+      - ./src/google-apps/art-calendarium
+  
+    VernisalisMailerController:
+      - ./src/google-apps/mailer-controller
+
+    VernisalisArtisticalColective:
+      - ./src/google-apps/artistical-colective
+
+    VernisalisArtCalendarium:
+      - ./src/google-apps/art-calendarium
+
+    VernisalisArtist-join-form:
+      
+
+    VernisalisWebVisitcart:
+      - ./src/google-apps/web-visitcart
+
+
+
+  
   - ./src/google-apps/artist-join-form
-  - ./src/google-apps/artistical-colective
+  
   - ./src/google-apps/artistical-colective/g-drive
   - ./src/google-apps/artistical-colective/g-tables
   - ./src/google-apps/gallery-exhibition
-  - ./src/google-apps/mailer-controller
+ 
   - ./src/google-apps/slider-tool
-  - ./src/google-apps/web-visitcart
+  - ./src/google-apps/artist-join-form
+  - ./src/google-apps/artistical-colective
 
 
 

@@ -25,6 +25,7 @@ class Artist{
     this.website=websiteLink
     this.phone=phone
   }
+  
 
 }
 
